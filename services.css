@@ -1,0 +1,147 @@
+﻿/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 36px;
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+.button {
+    background-color: #ff8c00;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Service details styles */
+.service-details {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.service {
+    width: 30rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.service-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.service h4 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.service p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.book-appointment-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #ff8c00;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s ease-in-out;
+}
+
+    .book-appointment-btn:hover {
+        background-color: #0062cc;
+    }
+
+/* Footer styles */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.useful-links {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #000;
+    }
+
+p {
+    font-size: 0.8em;
+}

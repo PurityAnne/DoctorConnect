@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>DoctorConnect | Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1 class="logo">DoctorConnect</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="contact-page">
+        <h2>Book an Appointment</h2>
+        <form method="post" action="appointment.php">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="service">Select Service:</label>
+            <select id="service" name="service">
+                <option value="Preventative Care">Preventative Care</option>
+                <option value="Cardiology">Cardiology</option>
+                <option value="Chronic Illness Management">Chronic Illness Management</option>
+                <option value="Women's Health">Women's Health</option>
+            </select>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div class="contact-info">
+            <h2>Dr. Student Name</h2>
+            <p>Address: 123 Main St, Anytown, USA</p>
+            <p>Phone: 555-555-5555</p>
+            <p>Email: student@school.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.738541103499!2d-96.7963238846774!3d32.78052388096628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x21ff830be084e8d3!2sDoctor%20Name%20Medical%20Clinic!5e0!3m2!1sen!2sus!4v1652500441979!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+
+    <footer class="footer">
+    <div class="footer-content">
+        <div class="logo">DoctorConnect</div>
+        <div class="useful-links">
+            <nav>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>&copy; 2023 DoctorConnect. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
